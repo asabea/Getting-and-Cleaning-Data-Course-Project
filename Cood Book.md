@@ -28,4 +28,5 @@ Steps
     Naming Data sets
     All Data set,Means and Standards Data set AND Activities Dataset
     
-
+    adding Tiddy data
+    --------
