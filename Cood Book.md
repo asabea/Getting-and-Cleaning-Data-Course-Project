@@ -7,12 +7,14 @@ Human Activity Recognition Using Smartphones Dataset
 
 Steps
 -----
- 1- Merges the training and the test sets to create one data set.
-    a.First reads all activity, feature_label, train and test data.
-    b.Merge test data to train data to output All Data File
-
-2- Extract only measurements on mean and standard deviation
-
+    Merges the training and the test sets to create one data set.
+    -----------------
+    1.First reads all activity, feature_label, train and test data.
+    2.Merge test data to train data to output All Data File.
+    
+    Extract only measurements on mean and standard deviation
+    -----------------
+    
 3- Extract just the columns that contain Mean/mean and std, along with subject and activity
   get the Activity adn subject data sets and grep only data contains mea/ std
   label all data with subjects
