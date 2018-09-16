@@ -12,22 +12,20 @@ Steps
     1.First reads all activity, feature_label, train and test data.
     2.Merge test data to train data to output All Data File.
     
-    Extract only measurements on mean and standard deviation
+    Extraction only the measurements on the mean and standard deviation for each measurement.
     -----------------
+    1.tagging the all data set colomn and merging the Activitie and subject
+    2.Filter Colmns that contain Mean and Standard
+    3.get the data set of the above colmn.
     
-3- Extract just the columns that contain Mean/mean and std, along with subject and activity
-  get the Activity adn subject data sets and grep only data contains mea/ std
-  label all data with subjects
-  filter mean and std
-
-    Use descriptive activities names for activity measurements
-
-Replaced values in activity column with string containing activity names
-
+    Replaced values in activity column with string containing activity names
+    -----------------
+    1. Append the Y_train and Y_test that contain activities
+    2.Mapping the activities data set to the activities_label table
+    
     Appropriately labels the data set with descriptive variable names
+    ------------------
+    Naming Data sets
+    All Data set,Means and Standards Data set AND Activities Dataset
+    
 
-Cleaned up variables names by removing punctuation, abbreviations and introducing underscore separators
-
-    Create tidy data set with average of each variable, by activity, by subject
-
-Created a tidy dataset following tidy principles.
