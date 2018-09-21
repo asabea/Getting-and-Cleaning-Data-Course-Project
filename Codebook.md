@@ -159,6 +159,7 @@ Output Tiddy Data Variables
 [73] "FrequencyBodyAccelerometerelerometerelerometerJerkMagnitudenitudeMean()"    
 [74] "FrequencyBodyAccelerometerelerometerelerometerJerkMagnitudenitudeSTD()"     
 [75] "FrequencyBodyAccelerometerelerometerelerometerJerkMagnitudenitudeMeanFreq()"
+
 [76] "FrequencyBodyGyroscopescopeMagnitudenitudeMean()"                           
 [77] "FrequencyBodyGyroscopescopeMagnitudenitudeSTD()"                            
 [78] "FrequencyBodyGyroscopescopeMagnitudenitudeMeanFreq()"                       
