@@ -68,12 +68,14 @@ Steps
     =================================================================
     1. Renaimng all_data dataset to be ALL data.
     2. from all mean & Standard dataset variables Replace:
-	    "Activities"-> "Activity Name"
-	    "Acc"->"Accelerometer"
-	    "Mag"->"Magnitude"
-	    "Gyro"->"Gyroscope"
-	    "f"->"Frequency"
-	    "t"->"Time"
+	    * "Activities" to be "Activity Name"
+	    * "Acc" to be "Accelerometer"
+	    * "Mag" to be "Magnitude"
+	    * "Gyro" to be "Gyroscope"
+	    * "t" to be "Time"
+	    * "f" or "Freq" to be "Frequency"
+	    * "tBody" to "Time Body"
+	    
     
     
     adding Tiddy data
@@ -82,91 +84,91 @@ Steps
     
 Output Tiddy Data Variables
 ---------------------------
-    [1] ->  subjects
-    [2] ->  activities
-    [3] ->  tBodyAcc-mean()-X
-    [4] ->  tBodyAcc-mean()-Y
-    [5] ->  tBodyAcc-mean()-Z
-    [6] ->  tBodyAcc-std()-X
-    [7] ->  tBodyAcc-std()-Y
-    [8] ->  tBodyAcc-std()-Z
-    [9] ->  tGravityAcc-mean()-X
-    [10] ->  tGravityAcc-mean()-Y
-    [11] ->  tGravityAcc-mean()-Z
-    [12] ->  tGravityAcc-std()-X
-    [13] ->  tGravityAcc-std()-Y
-    [14] ->  tGravityAcc-std()-Z
-    [15] ->  tBodyAccJerk-mean()-X
-    [16] ->  tBodyAccJerk-mean()-Y
-    [17] ->  tBodyAccJerk-mean()-Z
-    [18] ->  tBodyAccJerk-std()-X
-    [19] ->  tBodyAccJerk-std()-Y
-    [20] ->  tBodyAccJerk-std()-Z
-    [21] ->  tBodyGyro-mean()-X
-    [22] ->  tBodyGyro-mean()-Y
-    [23] ->  tBodyGyro-mean()-Z
-    [24] ->  tBodyGyro-std()-X
-    [25] ->  tBodyGyro-std()-Y
-    [26] ->  tBodyGyro-std()-Z
-    [27] ->  tBodyGyroJerk-mean()-X
-    [28] ->  tBodyGyroJerk-mean()-Y
-    [29] ->  tBodyGyroJerk-mean()-Z
-    [30] ->  tBodyGyroJerk-std()-X
-    [31] ->  tBodyGyroJerk-std()-Y
-    [32] ->  tBodyGyroJerk-std()-Z
-    [33] ->  tBodyAccMag-mean()
-    [34] ->  tBodyAccMag-std()
-    [35] ->  tGravityAccMag-mean()
-    [36] ->  tGravityAccMag-std()
-    [37] ->  tBodyAccJerkMag-mean()
-    [38] ->  tBodyAccJerkMag-std()
-    [39] ->  tBodyGyroMag-mean()
-    [40] ->  tBodyGyroMag-std()
-    [41] ->  tBodyGyroJerkMag-mean()
-    [42] ->  tBodyGyroJerkMag-std()
-    [43] ->  fBodyAcc-mean()-X
-    [44] ->  fBodyAcc-mean()-Y
-    [45] ->  fBodyAcc-mean()-Z
-    [46] ->  fBodyAcc-std()-X
-    [47] ->  fBodyAcc-std()-Y
-    [48] ->  fBodyAcc-std()-Z
-    [49] ->  fBodyAcc-meanFreq()-X
-    [50] ->  fBodyAcc-meanFreq()-Y
-    [51] ->  fBodyAcc-meanFreq()-Z
-    [52] ->  fBodyAccJerk-mean()-X
-    [53] ->  fBodyAccJerk-mean()-Y
-    [54] ->  fBodyAccJerk-mean()-Z
-    [55] ->  fBodyAccJerk-std()-X
-    [56] ->  fBodyAccJerk-std()-Y
-    [57] ->  fBodyAccJerk-std()-Z
-    [58] ->  fBodyAccJerk-meanFreq()-X
-    [59] ->  fBodyAccJerk-meanFreq()-Y
-    [60] ->  fBodyAccJerk-meanFreq()-Z
-    [61] ->  fBodyGyro-mean()-X
-    [62] ->  fBodyGyro-mean()-Y
-    [63] ->  fBodyGyro-mean()-Z
-    [64] ->  fBodyGyro-std()-X
-    [65] ->  fBodyGyro-std()-Y
-    [66] ->  fBodyGyro-std()-Z
-    [67] ->  fBodyGyro-meanFreq()-X
-    [68] ->  fBodyGyro-meanFreq()-Y
-    [69] ->  fBodyGyro-meanFreq()-Z
-    [70] ->  fBodyAccMag-mean()
-    [71] ->  fBodyAccMag-std()
-    [72] ->  fBodyAccMag-meanFreq()
-    [73] ->  fBodyBodyAccJerkMag-mean()
-    [74] ->  fBodyBodyAccJerkMag-std()
-    [75] ->  fBodyBodyAccJerkMag-meanFreq()
-    [76] ->  fBodyBodyGyroMag-mean()
-    [77] ->  fBodyBodyGyroMag-std()
-    [78] ->  fBodyBodyGyroMag-meanFreq()
-    [79] ->  fBodyBodyGyroJerkMag-mean()
-    [80] ->  fBodyBodyGyroJerkMag-std()
-    [81] ->  fBodyBodyGyroJerkMag-meanFreq()
-    [82] ->  angle(tBodyAccMean,gravity)
-    [83] ->  angle(tBodyAccJerkMean),gravityMean)
-    [84] ->  angle(tBodyGyroMean,gravityMean)
-    [85] ->  angle(tBodyGyroJerkMean,gravityMean)
-    [86] ->  angle(X,gravityMean)
-    [87] ->  angle(Y,gravityMean)
-    [88] ->  angle(Z,gravityMean)
+ [1] "subjects"                                                                   
+ [2] "Activity Name"                                                              
+ [3] "TimeBodyAccelerometerelerometerelerometerMean()-X"                          
+ [4] "TimeBodyAccelerometerelerometerelerometerMean()-Y"                          
+ [5] "TimeBodyAccelerometerelerometerelerometerMean()-Z"                          
+ [6] "TimeBodyAccelerometerelerometerelerometerSTD()-X"                           
+ [7] "TimeBodyAccelerometerelerometerelerometerSTD()-Y"                           
+ [8] "TimeBodyAccelerometerelerometerelerometerSTD()-Z"                           
+ [9] "TimeGravityAccelerometerelerometerelerometerMean()-X"                       
+[10] "TimeGravityAccelerometerelerometerelerometerMean()-Y"                       
+[11] "TimeGravityAccelerometerelerometerelerometerMean()-Z"                       
+[12] "TimeGravityAccelerometerelerometerelerometerSTD()-X"                        
+[13] "TimeGravityAccelerometerelerometerelerometerSTD()-Y"                        
+[14] "TimeGravityAccelerometerelerometerelerometerSTD()-Z"                        
+[15] "TimeBodyAccelerometerelerometerelerometerJerkMean()-X"                      
+[16] "TimeBodyAccelerometerelerometerelerometerJerkMean()-Y"                      
+[17] "TimeBodyAccelerometerelerometerelerometerJerkMean()-Z"                      
+[18] "TimeBodyAccelerometerelerometerelerometerJerkSTD()-X"                       
+[19] "TimeBodyAccelerometerelerometerelerometerJerkSTD()-Y"                       
+[20] "TimeBodyAccelerometerelerometerelerometerJerkSTD()-Z"                       
+[21] "TimeBodyGyroscopescopeMean()-X"                                             
+[22] "TimeBodyGyroscopescopeMean()-Y"                                             
+[23] "TimeBodyGyroscopescopeMean()-Z"                                             
+[24] "TimeBodyGyroscopescopeSTD()-X"                                              
+[25] "TimeBodyGyroscopescopeSTD()-Y"                                              
+[26] "TimeBodyGyroscopescopeSTD()-Z"                                              
+[27] "TimeBodyGyroscopescopeJerkMean()-X"                                         
+[28] "TimeBodyGyroscopescopeJerkMean()-Y"                                         
+[29] "TimeBodyGyroscopescopeJerkMean()-Z"                                         
+[30] "TimeBodyGyroscopescopeJerkSTD()-X"                                          
+[31] "TimeBodyGyroscopescopeJerkSTD()-Y"                                          
+[32] "TimeBodyGyroscopescopeJerkSTD()-Z"                                          
+[33] "TimeBodyAccelerometerelerometerelerometerMagnitudenitudeMean()"             
+[34] "TimeBodyAccelerometerelerometerelerometerMagnitudenitudeSTD()"              
+[35] "TimeGravityAccelerometerelerometerelerometerMagnitudenitudeMean()"          
+[36] "TimeGravityAccelerometerelerometerelerometerMagnitudenitudeSTD()"           
+[37] "TimeBodyAccelerometerelerometerelerometerJerkMagnitudenitudeMean()"         
+[38] "TimeBodyAccelerometerelerometerelerometerJerkMagnitudenitudeSTD()"          
+[39] "TimeBodyGyroscopescopeMagnitudenitudeMean()"                                
+[40] "TimeBodyGyroscopescopeMagnitudenitudeSTD()"                                 
+[41] "TimeBodyGyroscopescopeJerkMagnitudenitudeMean()"                            
+[42] "TimeBodyGyroscopescopeJerkMagnitudenitudeSTD()"                             
+[43] "FrequencyBodyAccelerometerelerometerelerometerMean()-X"                     
+[44] "FrequencyBodyAccelerometerelerometerelerometerMean()-Y"                     
+[45] "FrequencyBodyAccelerometerelerometerelerometerMean()-Z"                     
+[46] "FrequencyBodyAccelerometerelerometerelerometerSTD()-X"                      
+[47] "FrequencyBodyAccelerometerelerometerelerometerSTD()-Y"                      
+[48] "FrequencyBodyAccelerometerelerometerelerometerSTD()-Z"                      
+[49] "FrequencyBodyAccelerometerelerometerelerometerMeanFreq()-X"                 
+[50] "FrequencyBodyAccelerometerelerometerelerometerMeanFreq()-Y"                 
+[51] "FrequencyBodyAccelerometerelerometerelerometerMeanFreq()-Z"                 
+[52] "FrequencyBodyAccelerometerelerometerelerometerJerkMean()-X"                 
+[53] "FrequencyBodyAccelerometerelerometerelerometerJerkMean()-Y"                 
+[54] "FrequencyBodyAccelerometerelerometerelerometerJerkMean()-Z"                 
+[55] "FrequencyBodyAccelerometerelerometerelerometerJerkSTD()-X"                  
+[56] "FrequencyBodyAccelerometerelerometerelerometerJerkSTD()-Y"                  
+[57] "FrequencyBodyAccelerometerelerometerelerometerJerkSTD()-Z"                  
+[58] "FrequencyBodyAccelerometerelerometerelerometerJerkMeanFreq()-X"             
+[59] "FrequencyBodyAccelerometerelerometerelerometerJerkMeanFreq()-Y"             
+[60] "FrequencyBodyAccelerometerelerometerelerometerJerkMeanFreq()-Z"             
+[61] "FrequencyBodyGyroscopescopeMean()-X"                                        
+[62] "FrequencyBodyGyroscopescopeMean()-Y"                                        
+[63] "FrequencyBodyGyroscopescopeMean()-Z"                                        
+[64] "FrequencyBodyGyroscopescopeSTD()-X"                                         
+[65] "FrequencyBodyGyroscopescopeSTD()-Y"                                         
+[66] "FrequencyBodyGyroscopescopeSTD()-Z"                                         
+[67] "FrequencyBodyGyroscopescopeMeanFreq()-X"                                    
+[68] "FrequencyBodyGyroscopescopeMeanFreq()-Y"                                    
+[69] "FrequencyBodyGyroscopescopeMeanFreq()-Z"                                    
+[70] "FrequencyBodyAccelerometerelerometerelerometerMagnitudenitudeMean()"        
+[71] "FrequencyBodyAccelerometerelerometerelerometerMagnitudenitudeSTD()"         
+[72] "FrequencyBodyAccelerometerelerometerelerometerMagnitudenitudeMeanFreq()"    
+[73] "FrequencyBodyAccelerometerelerometerelerometerJerkMagnitudenitudeMean()"    
+[74] "FrequencyBodyAccelerometerelerometerelerometerJerkMagnitudenitudeSTD()"     
+[75] "FrequencyBodyAccelerometerelerometerelerometerJerkMagnitudenitudeMeanFreq()"
+[76] "FrequencyBodyGyroscopescopeMagnitudenitudeMean()"                           
+[77] "FrequencyBodyGyroscopescopeMagnitudenitudeSTD()"                            
+[78] "FrequencyBodyGyroscopescopeMagnitudenitudeMeanFreq()"                       
+[79] "FrequencyBodyGyroscopescopeJerkMagnitudenitudeMean()"                       
+[80] "FrequencyBodyGyroscopescopeJerkMagnitudenitudeSTD()"                        
+[81] "FrequencyBodyGyroscopescopeJerkMagnitudenitudeMeanFreq()"                   
+[82] "Angle(TimeBodyAccelerometerelerometerelerometerMean,Gravity)"               
+[83] "Angle(TimeBodyAccelerometerelerometerelerometerJerkMean),GravityMean)"      
+[84] "Angle(TimeBodyGyroscopescopeMean,GravityMean)"                              
+[85] "Angle(TimeBodyGyroscopescopeJerkMean,GravityMean)"                          
+[86] "Angle(X,GravityMean)"                                                       
+[87] "Angle(Y,GravityMean)"                                                       
+[88] "Angle(Z,GravityMean)" 
