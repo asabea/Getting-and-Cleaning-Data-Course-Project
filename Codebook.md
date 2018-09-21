@@ -66,9 +66,14 @@ Steps
     
     Appropriately labels the data set with descriptive variable names
     =================================================================
-    1. Labeling All_data set : Header added in step 1
-    2. Labeling Mean & Standard set : Header added in step 2
-    3. Renaimng all_data dataset to be ALL data.
+    1. Renaimng all_data dataset to be ALL data.
+    2. from all mean & Standard dataset variables Replace:
+	    "Activities"-> "Activity Name"
+	    "Acc"->"Accelerometer"
+	    "Mag"->"Magnitude"
+	    "Gyro"->"Gyroscope"
+	    "f"->"Frequency"
+	    "t"->"Time"
     
     
     adding Tiddy data
